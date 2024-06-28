@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Notes App</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+
+<body>
+  <main>
+    <div class="container ">
+      <h1 class="h_tag">This is a note taking App</h1>
+      <p class="ptag">just click the add Button & enjoy the experience</p>
+    </div>
+   
+  </main>
+  
+  <section>
+    <div class="container">
+      <div class="px-4 py-5 my-2 text-center">
+        <img id="img"    class="d-block mx-auto mb-2" src="./logo.svg" alt="" width="200" height="67">
+        <h1 class="display-5 fw-bold text-body-emphasis">Jospeh Eniola David</h1>
+        <h3 class="display-5 fw-bold text-body-emphasis">@Jospeh David</h3>
+        <h4 class="display-5 fw-bold text-body-emphasis">igedavis@gmail.com</h4>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4"></p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a href="https://hng.tech/"><button type="button" class="btn btn-primary btn-lg px-4 gap-3" >More About HNG11</button></a>
+            <a href="https://hng.tech/internship"><button type="button" class="btn btn-outline-secondary btn-lg px-4">Register</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div id="notes-container">
+    <button class="add" id="add">
+      <i class="mx-auto fas fa-plus "></i> Add note
+    </button>
+
+  </div>
+
+  <section id="contact" class="gradient-background">
+    <div class="container ">
+      <footer class="up">
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <p>© 2024 Company, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                  <use xlink:href="#twitter"></use>
+                </svg></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                  <use xlink:href="#instagram"></use>
+                </svg></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                  <use xlink:href="#facebook"></use>
+                </svg></a></li>
+          </ul>
+        </div>
+        <div class="col-md-5 offset-md-1 mb-3">
+
+          <form>
+            <h5>Subscribe to our newsletter</h5>
+            <p>Want to know more About HNG cohort11, and what's new and exciting from us.</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email address</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+              <button class="btn btn-primary" type="button">Subscribe</button>
+            </div>
+          </form>
+        </div>
+
+    </div>
+    </footer>
+    </div>
+  </section>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/1.2.2/marked.min.js"></script>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
